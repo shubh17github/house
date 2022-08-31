@@ -1,0 +1,56 @@
+<html>
+    <h1> *****WELCOME*****</h1>
+    <body>
+        <form action="/predict"method="POST"  >
+            <h1> Pune House Price Prediction</h1>
+            <label>:area_type:'Super built-up  Area':4,'Built-up  Area':3,'Carpet  Area':2,'Plot  Area':1</label> <input name="area_type" type="text" > <br> <br>
+            <label>BATH:value in integer</label> <input type="text" name="bath"> <br> <br>
+            <label>BALCONY:value in integer</label> <input type="text" name="balcony"> <br> <br>
+            <label>SIZE:value in integer</label> <input type="text" name="size"> <br> <br>
+            <label>AREA IN SQFT:value in float</label> <input type="text" name="sqft"> <br> <br>
+            <label>LOCATION:value in int (0 to 97) </label> <input type="text" name="site_location"> <br> <br>
+            <input type="submit" value="PREDICT">
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+        {{predicted_price}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+</html>
